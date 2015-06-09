@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Photos</title>
+<script src="jquery-1.10.2.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+<script src="skripte/photos.js"></script>
+<link rel="stylesheet" type="text/css" href="css/photos.css">
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<h1>Game Design Space</h1>
+
+			<span id="usernav"><a href="login.html">Logout</a> - <a href="profile1.html">My Profile<span><img src="slike/profile/friend.jpg" /></span></a></span>
+		</div>
+	</header>
+
+	<nav>
+		<ul id="n" class="clearfix">
+			<li><a href="profile1.html">Profile</a></li>
+			<li class="sel"><a href="#">Photos</a></li>
+			<li><a href="friends1.html">Friends</a></li>
+			<li><a href="games1.html">Games</a></li>
+			<li><a href="player1.html">Videos</a></li>
+            <li><a href="about1.html">About</a></li>
+		</ul>
+	</nav>
+    <div id="content" class="clearfix">
+    <div id="photos">
+    <h1>No photos yet</h1>
+    </div>
+    </div>
+    <div id="overlay">
+    	<div id="leftArrow" class="arrows">
+        </div>
+        <!--leftArrow-->
+    	<div id="pictureContainer">
+        	<img src="#" alt="">
+            <p id="description"></p>
+        </div>
+        <!--pictureContainer-->
+        <div id="rightArrow" class="arrows">
+        </div>
+        <!--rightArrow-->
+    </div>
+    <!--overlay-->
+</body>
+</html>

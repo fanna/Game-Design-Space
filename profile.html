@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Profile page</title>
+<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+<script src="jquery-1.10.2.min.js"></script>
+<script src="skripte/profile.js"></script>
+<link rel="stylesheet" type="text/css" href="css/profile.css">
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<h1>Game Design Space</h1>
+
+			<span id="usernav"><a href="login.html">Logout</a>  - <a href="profile.html">My Profile<span><img src="slike/profile/notch_small.png" /></span></a></span>
+		</div>
+	</header>
+
+	<nav>
+		<ul id="n" class="clearfix">
+			<li class="sel"><a href="#">Profile</a></li>
+			<li><a href="photos.html">Photos</a></li>
+			<li><a href="friends.html">Friends</a></li>
+			<li><a href="games.html">Games</a></li>
+			<li><a href="player.html">Videos</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</nav>
+
+	<div id="content" class="clearfix">
+		<section id="left">
+			<div id="userStats" class="clearfix">
+				<div class="pic">
+					<a href="#"><img src="slike/profile/notch.jpg" width="150" height="150" /></a>
+				</div>
+
+				<div class="data">
+					<h1 id="username">Markus Persson</h1>
+					<h4><a href="http://notch.net/">notch.net</a></h4>
+					<div class="socialMediaLinks">
+						<a href="https://twitter.com/notch" rel="me" target="_blank"><img src="slike/profile/twitter1.png" alt="@jakerocheleau" /></a>
+						<a href="https://www.facebook.com/Markkus.Persson" rel="me" target="_blank"><img src="slike/profile/fb.png" /></a>
+					</div>
+					<div class="sep"></div>
+					<ul class="numbers clearfix">
+						<li><a href="friends.html">friends<strong>102</strong></a></li>
+						<li><a href="photos.html">photos<strong>12</strong></a></li>
+						<li class="nobrdr">likes<strong>188</strong></li>
+					</ul>
+				</div>
+			</div>
+
+			<a href="about.html"><h1>About me:</h1></a>
+			<p>Markus Alexej Persson (born 1 June 1979), also known as Notch or xNotch, is a Swedish video game programmer and designer. Persson is known as the founder of Mojang, the video game company he founded alongside Carl Manneh and Jakob Porser in late 2010. In September 2014, he announced publicly that he would be leaving Mojang after its acquisition by Microsoft.</p>
+            <div id="writeStatus">
+                <textarea id="sayText" rows="4" cols="85" maxlength='200'>
+                </textarea>
+                <button id="sayButton">post</button>
+            </div>
+            <h1>Status:</h1>
+            <div>
+            	<ul id="statusList">
+                	<li>
+                    	<p class="time">9/12/2013 13:18h</p>
+                        <p class="status">Yo guys! Tune in today at 9pm I'll be streaming some dev</p>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+	</div>
+	<footer>
+		<a href="games.html"><h1>Games released:</h1></a>
+		<img src="slike/profile/mc.png" />
+		<img src="slike/profile/scrolls.jpg" />
+	</footer>
+</body>
+</html>

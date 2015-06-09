@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Profile page</title>
+<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+<script src="jquery-1.10.2.min.js"></script>
+<script src="skripte/profile.js"></script>
+<link rel="stylesheet" type="text/css" href="css/profile.css">
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<h1>Game Design Space</h1>
+
+			<span id="usernav"><a href="login.html">Logout</a>  - <a href="profile1.html">My Profile<span><img src="slike/profile/friend.jpg" /></span></a></span>
+		</div>
+	</header>
+
+	<nav>
+		<ul id="n" class="clearfix">
+			<li class="sel"><a href="#">Profile</a></li>
+			<li><a href="photos1.html">Photos</a></li>
+			<li><a href="friends1.html">Friends</a></li>
+			<li><a href="games1.html">Games</a></li>
+			<li><a href="player1.html">Videos</a></li>
+			<li><a href="about1.html">About</a></li>
+		</ul>
+	</nav>
+
+	<div id="content" class="clearfix">
+		<section id="left">
+			<div id="userStats" class="clearfix">
+				<div class="pic">
+					<a href="#"><img src="slike/friends/friend.jpg" width="150" height="150" /></a>
+				</div>
+
+				<div class="data">
+					<h1 id="username">New User</h1>
+					<h4></h4>
+					<div class="socialMediaLinks">
+						<a href="https://twitter.com/" rel="me" target="_blank"><img src="slike/profile/twitter1.png" alt="@jakerocheleau" /></a>
+						<a href="https://www.facebook.com/" rel="me" target="_blank"><img src="slike/profile/fb.png" /></a>
+					</div>
+					<div class="sep"></div>
+					<ul class="numbers clearfix">
+						<li><a href="friends1.html">friends<strong>0</strong></a></li>
+						<li><a href="photos1.html">photos<strong>0</strong></a></li>
+						<li class="nobrdr">likes<strong>0</strong></li>
+					</ul>
+				</div>
+			</div>
+
+			<a href="about1.html"><h1>About me:</h1></a>
+			<p>No info</p>
+            <div id="writeStatus">
+                <textarea id="sayText" rows="4" cols="85" maxlength='200'>
+                </textarea>
+                <button id="sayButton">post</button>
+            </div>
+            <h1>Status:</h1>
+            <div>
+            	<ul id="statusList">
+                	<li>
+                    	<p class="time">9/12/2013 13:18h</p>
+                        <p class="status">No new posts</p>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+	</div>
+	<footer>
+		<a href="games1.html"><h1>Games released:</h1></a>
+		<p>No info</p>
+
+	</footer>
+</body>
+</html>

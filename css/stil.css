@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+.error {
+	border: 1px solid red;	
+}
+
+.formHeaders {
+	background-color: #d3d7da;
+	color: #2b4659;
+	padding: 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;	
+}
+
+.formContainers {
+	background-color: #5A5E4E;
+	border-radius: 0 0 20px 20px;
+	border-color: #fff;
+	border-width: 2px;
+	border-style: solid;
+	border-top: 0px solid;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+.submit {
+	background-color: #B2B7A2;
+	color: #fff;
+	font-family: Lora, Times, serif;
+	font-style: italic;
+	padding: 3px 15px;
+	font-size: 15px;
+	cursor: pointer;	
+}
+
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	background: #839485;	
+}
+
+#header {
+	width: 500px;
+	height: 100px;	
+	margin-top: 10%;
+	clear: both;
+	background: #5A5E4E;
+	padding-left: 20px;
+	padding-top: 20px;
+	font-family:Lora, Courier, monospace;
+	font-size: 50px;
+	color: #B2B7A2;
+	font-weight: bold;
+	border-radius: 20px;
+	margin-left: 36.5%;
+}
+
+#messageDiv {
+	background-color: #c90000;
+	color: #fff;
+	border: 1px solid #fff;
+	width: 300px;
+	height: 25px;
+	font-family: Lora, Times, serif;
+	font-style: italic;
+	font-size: 20px;
+	text-align:center;
+	border-radius: 0px 0px 5px 5px;
+	float: left;
+	margin-left: 80%;
+	display: none;
+}
+
+#sadrzaj {
+	margin-left: 39.6%;	
+}
+
+#sadrzaj #loginContainer {
+	width: 400px;
+	height: 200px;
+
+	
+	
+}
+
+#sadrzaj #loginContent {
+	color: #d3d7da;
+	font-family: Lora, Times, serif;
+	font-size: 20px;
+	font-style: italic;
+	padding: 20px 70px;
+}
+
+#registerContainer {
+	float: right;
+
+}
+
+#registerHandle {
+	background-color: #5A5E4E;
+	color: #fff;
+	font-family: Lora, Times, serif;
+	font-style: italic;
+	padding: 5px;
+	font-size: 20px;
+	border: 2px solid #d3d7da;
+	border-radius: 5px 5px 0px 0px;
+	float: left;
+	cursor: pointer;
+	/*rotacija*/
+	-moz-transform: rotate(-90deg); /* Firefox */
+	-ms-transform:rotate(-90deg); /* IE */
+	-webkit-transform:rotate(-90deg); /* Safari i Chrome */
+	
+	margin-top: 50px;
+	margin-right: -55px;
+}
+
+#registerForm {
+	width: 0px;
+	border-width: 0px;
+	height: 300px;
+	float: right;
+	background-color: #5A5E4E;	
+
+}
+
+#registerHeader {
+	display: none;	
+}
+
+footer {
+	margin-left: 45%;
+	margin-top: 20%;
+}
